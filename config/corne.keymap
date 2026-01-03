@@ -60,10 +60,10 @@
 
         adjust_layer {
             bindings = <
-&trans             &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans             &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&ext_power EP_TOG  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                   &trans  &trans  &trans    &trans  &trans  &trans
+&trans            &trans             &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &trans             &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&ext_power EP_ON  &ext_power EP_OFF  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                             &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
