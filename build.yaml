@@ -20,6 +20,8 @@
 ---
 include:
   - board: nrfmicro_13
+    snippet: nrf52833-nosd
     shield: corne_left
   - board: nrfmicro_13
+    snippet: nrf52833-nosd
     shield: corne_right
