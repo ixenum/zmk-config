@@ -25,3 +25,6 @@ include:
   - board: nrfmicro_13
     snippet: nrf52833-nosd
     shield: corne_right
+  - board: nrfmicro_13
+    snippet: nrf52833-nosd
+    shield: settings_reset
