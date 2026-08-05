@@ -20,8 +20,9 @@
 ---
 include:
   - board: nrfmicro_13
-    snippet: nrf52833-nosd
+    snippet: "nrf52833-nosd studio-rpc-usb-uart"
     shield: corne_dongle
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
 
   - board: nrfmicro_13
     snippet: nrf52833-nosd
